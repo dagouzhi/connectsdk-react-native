@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'LICENSE', 'README.md', 'package.json', 'index.js'
 
   s.dependency 'React-Core'
-  s.ios.dependency 'ConnectSDK-Lite'
+  s.ios.dependency :git => 'https://github.com/dagouzhi/Connect-SDK-iOS-Lite'
   s.ios.dependency 'EventEmitter'
 end
